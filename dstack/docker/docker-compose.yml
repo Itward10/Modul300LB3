@@ -1,27 +1,15 @@
----
-# Docker Web Development Stack (dstack) 1.0.3
-#
-# Runs Apache, MySQL, PHP, Redis and PhpMyAdmin
-# SSL is preconfigured.
-# Imagemagick and XDebug are activated.
-#
-# Run with 
-# docker-compose up -d
-#
-# (C)2020 Harald Schneider
-#
-version: "3"
+#Docker-compse
+version: "1"
 services:
   # --- MySQL 5.7
-  #
   mysql:
-    container_name: "dstack-mysql"
-    image: bitnami/mysql:5.7
+    container_name: "dstack-mysql"      #name vom Container
+    image: bitnami/mysql:5.7            #Zieht das Image von bitnami
     environment:
-      - MYSQL_ROOT_PASSWORD=YOUR_PASSWORD_HERE
+      - MYSQL_ROOT_PASSWORD=YOUR_PASSWORD_HERE    #konfiguration des MySQL
       - MYSQL_USER=admin
       - MYSQL_PASSWORD=YOUR_PASSWORD_HERE
-    ports:
+    ports:                              # Port öffnung
       - '3306:3306'
     volumes:
       - ./docker/mysql/data:/bitnami/mysql/data
