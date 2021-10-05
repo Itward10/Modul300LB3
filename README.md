@@ -112,3 +112,7 @@ Es kam den Lösungsvorschlag mit der Berechtigung und neustarten des Docker Dien
 Als es nach grossen hin und her. Auf einmal versuchten wir es mit dem command
 
 ``` sudo docker-compose up -d ``` 
+
+Dazu erstellten wir auch den neuen Plan
+![image](https://user-images.githubusercontent.com/89509863/136079390-b3ff5032-a34e-4c7d-8d49-1ac52835f0d0.png)
+
