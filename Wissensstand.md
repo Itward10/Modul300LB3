@@ -1,6 +1,6 @@
 # Persönlicher Wissenstand
 
-### Linux
+## Linux
 
 Wir konnten die Basic Befehle wiederhohlen:
 
@@ -12,6 +12,10 @@ sudo    | Als administrator ausführen
 usermod -a -G docker $USER | User zur Sicherheits Gruppe docker hinzufügen
 apt-get update/ apt-get upgrade | updated die Programme auf den aktuellsten Stand
 touch | File erstellen
+
+## Docker
+
+Docker ist eine Freie Software, dies Bedeutet, dass jeder es gratis benutzen und bearbeiten kann. Bei diesem kann man Containervirtualisierung zu Isolierung von Anwendungen kreiren.
 
 ### Docker Befehle
 
