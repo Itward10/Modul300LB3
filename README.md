@@ -93,4 +93,22 @@ VOLUME /var/www/html
 
 CMD /bin/bash -c "source /etc/apache2/envvars && exec /usr/sbin/apache2 -DFOREGROUND"
 ``` 
+Auf einmal merkten wir das wir keine Docker berechtigt wurden. 
+```
+sudo usermod -a -G docker $USER
+```
+Wir versuchten viele Sachen aus. Es war ein Kampf und danach versuchten wir eine Anleitung, aber wir bekamen die ganze Zeit eine Fehlermeldung:
+```
+ERROR: Couldn't connect to Docker daemon at http+docker://localhost - is it running?
 
+If it's at a non-standard location, specify the URL with the DOCKER_HOST environment variable.
+``` 
+
+Danach versuchte ich diese Anleitung: <https://techoverflow.net/2019/03/16/how-to-fix-error-couldnt-connect-to-docker-daemon-at-httpdocker-localhost-is-it-running/>
+
+Nachdem ich alle Schritte genau befolgt habe, bekam ich die genau gleiche Fehlermeldung. Dies machte uns stutzig und suchten nach der Fehlermeldung.
+Es kam den Lösungsvorschlag mit der Berechtigung und neustarten des Docker Dienst.
+
+Als es nach grossen hin und her. Auf einmal versuchten wir es mit dem command
+
+``` sudo docker-compose up -d ``` 
