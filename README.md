@@ -115,5 +115,5 @@ Als es nach grossen hin und her. Auf einmal versuchten wir es mit dem command
 
 Dazu erstellten wir auch den neuen Plan
 
-![image](https://user-images.githubusercontent.com/89509863/136079390-b3ff5032-a34e-4c7d-8d49-1ac52835f0d0.png)
+![image](https://user-images.githubusercontent.com/89509863/136084110-95fa3c22-8fc0-445c-96e6-b00f5f23b4fe.png)
 
