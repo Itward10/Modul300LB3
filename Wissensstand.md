@@ -17,6 +17,9 @@ touch | File erstellen
 
 Docker ist eine Freie Software, dies Bedeutet, dass jeder es gratis benutzen und bearbeiten kann. Bei diesem kann man Containervirtualisierung zu Isolierung von Anwendungen kreiren.
 
+##### Volumes
+Volumes sind der bevorzugte Mechanismus für die Speicherung von Daten, die von Docker-Containern erzeugt und verwendet werden.
+
 ### Docker Befehle
 
 Command | Bedeutung
