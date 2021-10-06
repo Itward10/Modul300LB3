@@ -1,4 +1,5 @@
 #Dockerfile
+#MySql Server
 From mysql
 
 MAINTAINER Sarah Schmid und Muriel Ruegg <schmidsarah21@gmail.com>
@@ -17,6 +18,7 @@ Volume
       ./docker/www:/app:delegated
       ./docker/php/php.ini:/opt/docker/php/etc/conf.d/php.ini:ro
 
+#Apache Server
 From Ubuntu
 
 MAINTAINER Sarah Schmid und Muriel Ruegg <schmidsarah21@gmail.com>
@@ -41,6 +43,7 @@ VOLUME
 
 CMD /bin/bash -c "source /etc/apache2/envvars && exec /usr/sbin/apache2 -DFOREGROUND"
 
+#Redis Server
 FROM redis
 
 MAINTAINER Sarah Schmid und Muriel Ruegg <schmidsarah21@gmail.com>
@@ -49,8 +52,8 @@ RUN -d -name dstack-redis
 
 ENV DATABASE_HOST=host.docker.internal
 
-
-FOM php
+#PHP Server
+FROM php
 
 MAINTAINER Sarah Schmid und Muriel Ruegg <schmidsarah21@gmail.com>
 
