@@ -5,3 +5,4 @@ Am Anfang hatten wir die Zeit unterschätzt. Wir dachten wir hätten mehr Zeit. 
 
 
 ## Muriel Ruegg
+Docker ist im Allgemeinen sehr interessant, war aber für mich doch noch ein wenig schwer zum verstehen. Ich musste mit hilfe von Frau Schmid mich gut einlesen, damit ich verstehen konnte. Doch schlussendlich kamen wir zu einem guten Punkt. Leider konnte ich Frau Schmid nicht so viel helfen wie ich wollte, da ich krank wurde und somit nicht so gut mithelfen konnte. Trotzdem kamen wir an einen guten Punkt und haben einen Weg gefunden, mit Anleitungen zu einem Projekt zu kommen. Auch das Planen am Anfang half, uns auf einen WEg zu entscheiden und weiter zu kommen.
