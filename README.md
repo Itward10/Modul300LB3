@@ -116,3 +116,5 @@ Als es nach grossen hin und her. Auf einmal versuchten wir es mit dem command
 Dazu erstellten wir auch den neuen Plan
 
 ![image](https://user-images.githubusercontent.com/89509863/136085791-6b67c2ab-d05d-42bc-9add-a635399c1d39.png)
+
+Da wir ein Dockerfile abgeben müssen habe ich aus dem Docker-compos ein Dockerfile umgeändert.
