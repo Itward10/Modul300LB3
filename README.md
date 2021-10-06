@@ -9,7 +9,7 @@ Da es eine neue Maschine war Installieren wir die update und upgrades:
 apt-get update
 apt-get upgrade 
 ```
-Nachdem versuchten wir uns ein überblick zu machen über alle Docker Bespiele
+Nachdem versuchten wir uns ein überblick zu machen über aller Docker Bespiele
 
 Wir installierten zum Start das DOCKER.io
 ```
